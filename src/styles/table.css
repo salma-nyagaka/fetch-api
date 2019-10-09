@@ -1,0 +1,45 @@
+.heading {
+  min-height: 10vh;
+  font-family: "Pathway Gothic One", sans-serif;
+  background-image: linear-gradient(to bottom, transparent, black 75%);
+  color: #feda4a;
+  font-size: 400%;
+  font-weight: 500;
+  text-align: center;
+  overflow: "visible";
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: "visible";
+}
+
+.cell {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.rows:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#example {
+  margin: 3rem;
+}
+
+.table_head {
+  overflow-x: scroll;
+}
+
+.ordered_list {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
